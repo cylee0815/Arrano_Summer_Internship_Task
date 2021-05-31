@@ -4,3 +4,8 @@
 
 
 ## SQL Queries
+
+
+```python
+sqlite3 crypto_data.db < query_for_3_questions.sql
+```
