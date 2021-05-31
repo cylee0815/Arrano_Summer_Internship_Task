@@ -27,7 +27,7 @@ This stage includes Step 4 only.
 
 ## SQL Queries
 
-In this part, we we will first see the Entity Relationship (ER) Diagram of the database. Then, we will first see how SQL query query_for_3_questions.sql could answer the questions in the instruction.
+In this part, we will first see the Entity Relationship (ER) Diagram of the database. Then, we will see how SQL query query_for_3_questions.sql could answer the questions in the instruction.
 
 ### ER Diagram
 
