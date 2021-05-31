@@ -4,7 +4,7 @@ In this task, there are 2 parts: Python Code for extracting data and SQL Queries
 
 ## Python Code
 
-Thy Python code is written in Jupyter Notebook for a better visualization of the dataframe obtained from the API. There are 3 main stages in the code:
+The Python code is written in Jupyter Notebook for a better visualization of the dataframe obtained from the API. There are 3 main stages in the code:
 
 ### Stage 1: Settings
 
