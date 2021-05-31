@@ -8,12 +8,14 @@ SELECT token_id, sum(volume) as total_volume_last_week FROM market WHERE date >=
 		AND date <= "2021-05-30" 
         AND token_id = (select coin.token_id from address coin where coin.contract_address = '0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48');
 -- As the data on May 31st is not complete, I decided to return the volume last week for May 30th.
+
 -- In general, the SQL query for a given ERC-20 token address could be:
--- SELECT token_id, sum(volume) as total_volume_last_week FROM market WHERE date >= <start_date> 
+-- SELECT token_id, sum(volume) as total_volume_past_n_days FROM market WHERE date >= <start_date> 
 -- AND date <= <end_date> AND token_id = (select coin.token_id from address coin where coin.contract_address = <token_address>);
 
 -- Question 2: For a given symbol, what is it's token address?
 SELECT contract_address FROM address WHERE token_id = "binance-usd";
+
 -- In general, the SQL query for a given symbol could be:
 -- SELECT contract_address FROM address WHERE token_id = <symbol>;
 
