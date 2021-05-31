@@ -31,6 +31,8 @@ In this part, we we will first see the Entity Relationship (ER) Diagram of the d
 
 ### ER Diagram
 
+![ER_diagram](https://user-images.githubusercontent.com/64963176/120185798-41f46600-c245-11eb-9a5c-0f4e529d5881.jpg)
+
 
 ### How do the SQL query answer the questions?
 ```
