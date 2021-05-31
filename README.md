@@ -1,4 +1,4 @@
-# Arrano_Summer_Internship_Interview_Technical_Task
+# Arrano Summer Internship Interview Technical Task
 
 In this task, there are 2 parts: Python Code for extracting data and SQL Queries for answering some questions.
 
@@ -8,9 +8,22 @@ Thy Python code is written in Jupyter Notebook for a better visualization of the
 
 ### Stage 1: Settings
 
+This stage includes Steps 0, 1, 2, and 5. For Steps 0 and 1, I imported the libraries and check the API status. As for Step 2, I wrote a helper function for timestamp convertion. Finally, for Step 5, I closed the connection to databases.
+
 ### Stage 2: Create the first database "address" with token_id and contract_address
 
+This stage includes Step 3 only. In this stage, I manually selected the coins satisfying the following 2 conditions.
+
+- The coin is ranked top 80 on Coingekco by Market Cap.
+- The coin is Etherum-based, i,e., the coin has a unique contract address.
+
+Next, I applied get_coin_by_id() method and extracted the value from the key "contract_address" in the dictionary for every coin. Then, I stored the (coin symbol, contract address) pairs in my dictionary.
+
+Finally, I converted the dictionary to the pandas DataFrame and stored it to the SQL database.
+
 ### Stage 3: Create the second database "market" with token_id, date, time, price and volume
+
+This stage includes Step 4 only.
 
 ## SQL Queries
 
